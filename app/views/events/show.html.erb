@@ -17,6 +17,7 @@
         <strong>活动地点:</strong>
         <%= @event.location %>
       </p>
+      <%= render "comments/list" %>
 
       <%= link_to "查看所有活动", events_path, :style => "color: gray" %>
     </div>
